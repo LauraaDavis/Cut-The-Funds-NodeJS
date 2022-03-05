@@ -1,4 +1,4 @@
-FROM mongo:latest
+FROM mongo:5.0.6-focal
 
 COPY test_data/new_data/ /data/db/data/
 
